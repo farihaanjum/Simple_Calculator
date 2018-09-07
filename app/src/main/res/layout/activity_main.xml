@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:hint="Result"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/val1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginRight="100dp"
+            android:hint="value1" />
+
+        <TextView
+            android:id="@+id/val2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:hint="value2"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+
+        <View
+            style="@style/viewhorizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/buttons"
+                android:text="9"/>
+            <View
+                style="@style/viewvertical"/>
+            <Button
+                android:id="@+id/btn8"
+                style="@style/buttons"
+                android:text="8"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/buttons"
+                android:text="7"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btndiv"
+                style="@style/buttons"
+                android:text="/"
+                android:textColor="@color/lightblue"/>
+
+
+
+        </LinearLayout>
+        <View
+            style="@style/viewhorizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/buttons"
+                android:text="6"/>
+            <View
+                style="@style/viewvertical"/>
+            <Button
+                style="@style/buttons"
+                android:id="@+id/btn5"
+                android:text="5"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/buttons"
+                android:text="4"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                style="@style/buttons"
+                android:id="@+id/btnmul"
+                android:text="*"
+                android:textColor="@color/lightblue"/>
+
+
+
+        </LinearLayout>
+        <View
+            style="@style/viewhorizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/buttons"
+                android:text="3"/>
+            <View
+                style="@style/viewvertical"/>
+            <Button
+                android:id="@+id/btn2"
+                style="@style/buttons"
+                android:text="2"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/buttons"
+                android:text="1"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btnsub"
+                style="@style/buttons"
+                android:text="-"
+                android:textColor="@color/lightblue"/>
+
+
+
+        </LinearLayout>
+        <View
+            style="@style/viewhorizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnclear"
+                style="@style/buttons"
+                android:text="C"
+                android:textColor="@color/red"/>
+            <View
+                style="@style/viewvertical"/>
+            <Button
+                android:id="@+id/btn0"
+                style="@style/buttons"
+                android:text="0"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btnequ"
+                style="@style/buttons"
+                android:text="="
+                android:textColor="@color/white"
+                android:background="@color/lightblue"/>
+            <View
+                style="@style/viewvertical"/>
+
+            <Button
+                android:id="@+id/btnadd"
+                style="@style/buttons"
+                android:text="+"
+                android:textColor="@color/lightblue"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
